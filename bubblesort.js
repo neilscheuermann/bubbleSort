@@ -1,5 +1,5 @@
 function bubbleSort(array) {
-    if (!array.length) {
+    if (array.length === 1 || !array.length) {
         return array;
     }else {
         for(let i =0; i < array.length; i++) {
@@ -11,18 +11,7 @@ function bubbleSort(array) {
         }
         return bubbleSort(array.slice[0, -1]);
     }
-  }
+}
 
 
 
-
-// const tootsiepop = {};
-// tootsiepop.lick = function () {
-//   return 'licked';
-// };
-// tootsiepop.getToCenter = function () {
-//   this.lick();
-//   this.lick();
-//   this.lick();
-//   return 'got to center';
-// }
