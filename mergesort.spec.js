@@ -9,12 +9,12 @@ describe('Split Array function', function() {
 
 describe('Merge function', function(){
     it('is able to merge two sorted arrays into one sorted array', function(){
-      expect(merge([[1, 2, 4], [3, 5, 9, 12]])).toEqual([1, 2, 3, 4, 5, 9, 12])
+      expect(merge([1, 2, 4], [3, 5, 9, 12])).toEqual([1, 2, 3, 4, 5, 9, 12])
     });
 });
 
 describe('MergeSort function', function(){
     it('returns a sorted array', function(){
-        expect(mergeSort([2, 5, 1, 4, 9, 12, 3])).toEqual([1, 2, 3, 4, 5, 9, 12])
+        expect(mergeSort([38, 27, 43, 3, 9, 82, 10])).toEqual([3, 9, 10, 27, 38, 43, 82])
     });
 });
